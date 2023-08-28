@@ -9,5 +9,5 @@ Clique abaixo e veja-os:
 <p></p>
 <a href="https://marciojorgemelo.github.io/01/site-android/index.html">-Site completo</a>;
 <p></p>
-<img src="qrcode.png" alt="QRcodedoportfólio"></img>
+<img src="frame.png" alt="QRcodedoportfólio"></img>
  

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0px;
+}
+header{
+    font-family: 'Passion One', cursive;
+    background-color: black;
+    color: white;
+    height: 400px;
+    box-shadow: 1px 1px black;
+}
+h1{
+    text-align: center;
+    font-size: 7em;
+    padding-top: 130px;
+}
+p{
+    text-align: center;
+    font-size: 1em;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+main{
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha', cursive;
+    box-shadow: 1px 1px black;
+}
+div{
+    padding: 50px;
+    padding-top: 100px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+div#imggirassol{
+    position: relative;
+    background-image: url(imagens/background001.jpg);
+    height: 700px;
+    background-position: right center;
+    background-attachment: fixed;
+}
+div#girassol{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    width: 450px;
+    text-align: left;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+}
+div#imgrabiscos{
+    position: relative;
+    background-image: url(imagens/background002.jpg);
+    height: 700px;
+    background-position: center center;
+    background-attachment: fixed; 
+}
+div#rabiscos{
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    width: 450px;
+    text-align: left;
+    position: absolute;
+    left: 0%;
+    top: 15%; 
+}

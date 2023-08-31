@@ -9,6 +9,6 @@ Clique abaixo e veja-os:
 <p></p>
 <a href="https://marciojorgemelo.github.io/01/site-android/index.html">-Site de notícias completo</a>;
 <p></p>
-<a href="https://marciojorgemelo.github.io/01/cordel-moderno/index.html">-Site de uma poesia completo</a>;
+<a href="https://marciojorgemelo.github.io/01/cordel-moderno/index.html">-Site de uma poesia completa</a>;
 <img src="frame.png" alt="QRcodedoportfólio"></img>
  

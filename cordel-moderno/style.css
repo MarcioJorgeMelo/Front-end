@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
     margin: 0px;
+    padding: 0px;
 }
 header{
     font-family: 'Passion One', cursive;
@@ -44,7 +45,7 @@ div#imggirassol{
 div#girassol{
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
-    width: 450px;
+    max-width:450px;
     text-align: left;
     position: absolute;
     left: 0%;
@@ -60,7 +61,7 @@ div#imgrabiscos{
 div#rabiscos{
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
-    width: 450px;
+    max-width: 450px;
     text-align: left;
     position: absolute;
     left: 0%;

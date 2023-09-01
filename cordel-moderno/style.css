@@ -14,7 +14,7 @@ header{
 h1{
     text-align: center;
     font-size: 7em;
-    padding-top: 130px;
+    padding-top: 120px;
 }
 p{
     text-align: center;
@@ -41,11 +41,14 @@ div#imggirassol{
     height: 700px;
     background-position: right center;
     background-attachment: fixed;
+    box-shadow: 1px 1px black;
 }
 div#girassol{
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
-    max-width:450px;
+    box-shadow: 1px 1px black;
+    max-width: 450px;
+    max-height: 572px;
     text-align: left;
     position: absolute;
     left: 0%;
@@ -57,11 +60,14 @@ div#imgrabiscos{
     height: 700px;
     background-position: center center;
     background-attachment: fixed; 
+    box-shadow: 1px 1px black;
 }
 div#rabiscos{
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
+    box-shadow: 1px 1px black;
     max-width: 450px;
+    max-height: 572px;
     text-align: left;
     position: absolute;
     left: 0%;

@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+div{
+    text-align: center;
+}
+div.video{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

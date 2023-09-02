@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --cor1:#59A5D8;
+    --cor2:#40476D;
+    --cor3:#774E24;
+    --cor4:#EFE9F4;
+    --cor5:#F29559;
+
+    --fontepadrao:arial,helvetica,sans-serif;
+    --fontetitulos:'Josefin Sans', sans-serif;
+    --fontebonita:'Oswald', sans-serif;
+}
+h1{
+    background-color: var(--cor2);
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: var(--cor4);
+    font-family: var(--fontetitulos);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+body{
+    background-color: var(--cor4);
+    color:black;
+    box-shadow: 1px 1px black;
+}
+section{
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+div#container{
+    position: relative;
+}
+div#conteudo{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: 2em;
+}

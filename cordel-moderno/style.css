@@ -1,75 +1,79 @@
+@charset "UTF-8"
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte01);
+}
 header{
-    font-family: 'Passion One', cursive;
     background-color: black;
     color: white;
-    height: 400px;
-    box-shadow: 1px 1px black;
-}
-h1{
     text-align: center;
-    font-size: 7em;
-    padding-top: 120px;
 }
-p{
-    text-align: center;
-    font-size: 1em;
+header > h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--fonte02);
+    font-size: 8vw;
 }
-a{
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
     color: rgb(255, 255, 255);
-}
-main{
-    background-color: white;
-    color: black;
-    font-family: 'Sriracha', cursive;
-    box-shadow: 1px 1px black;
-}
-div{
-    padding: 50px;
-    padding-top: 100px;
-    font-size: 1.5em;
+    text-decoration: none;
     font-weight: bolder;
 }
-div#imggirassol{
-    position: relative;
-    background-image: url(imagens/background001.jpg);
-    height: 700px;
-    background-position: right center;
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte03);
+    font-size: 2.5vw;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
     background-attachment: fixed;
-    box-shadow: 1px 1px black;
 }
-div#girassol{
-    background-color: rgba(0, 0, 0, 0.479);
-    color: white;
-    box-shadow: 1px 1px black;
-    max-width: 450px;
-    max-height: 572px;
-    text-align: left;
-    position: absolute;
-    left: 0%;
-    top: 15%;
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
 }
-div#imgrabiscos{
-    position: relative;
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    text-shadow: 2px 2px 0px black;
+}
+section#img02{
     background-image: url(imagens/background002.jpg);
-    height: 700px;
-    background-position: center center;
-    background-attachment: fixed; 
-    box-shadow: 1px 1px black;
+    background-position: right center;
 }
-div#rabiscos{
-    background-color: rgba(0, 0, 0, 0.479);
+footer{
+    background-color: black;
     color: white;
-    box-shadow: 1px 1px black;
-    max-width: 450px;
-    max-height: 572px;
-    text-align: left;
-    position: absolute;
-    left: 0%;
-    top: 15%; 
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5vw;
 }

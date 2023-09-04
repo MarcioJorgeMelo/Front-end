@@ -7,7 +7,7 @@
 :root{
     --cor1:#59A5D8;
     --cor2:#40476D;
-    --cor3:#774E24;
+    --cor3:#523518;
     --cor4:#EFE9F4;
     --cor5:#F29559;
 
@@ -30,17 +30,22 @@ body{
     background-color: var(--cor4);
     color:black;
     box-shadow: 1px 1px black;
+    font-family: var(--fontebonita);
 }
 section{
     background-color: var(--cor3);
     color: var(--cor4);
+    height: 870px;
 }
-div#container{
-    position: relative;
+h2{
+    padding-top: 20px;
+    color: var(--cor4);
 }
-div#conteudo{
-    position: absolute;
-    left: 40%;
-    top: 10%;
-    font-size: 2em;
+a{
+    color: var(--cor1);
+    text-decoration: none;
+}
+a:visited{
+    color: var(--cor1);
+    text-decoration: none;
 }

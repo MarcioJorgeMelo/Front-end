@@ -1,0 +1,20 @@
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    height: 98.3vh;
+    background-size: cover;
+    background-position: bottom center;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+}

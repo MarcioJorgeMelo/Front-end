@@ -15,7 +15,6 @@ Clique abaixo e veja-os:
 <br>
 <a href="https://marciojorgemelo.github.io/01/site-completo01/index.html" target="_blank">-Site do trabalho;
 <br>
-<img src="frame.png" alt="QRcodedoportfólio"></img>
 
 
  

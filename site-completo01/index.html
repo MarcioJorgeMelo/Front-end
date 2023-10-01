@@ -4,54 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipe Devs</title>
-    <link rel="shortcut icon" href="Morcha-Browsers-Chrome.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="estilos/Morcha-Browsers-Chrome.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
         <h1>Equipe DEVs</h1>
         <p>Conheça-nos!</p>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Quem somos</a>
-            <a href="">Nossas fotos</a>
-        </nav>
     </header>
+    
+    <nav>
+        <a href=""><strong>HOME</strong></a>
+        <a href=""><strong>QUEM SOMOS</strong></a>
+        <a href=""><strong>NOSSAS FOTOS</strong></a>
+    </nav>
+
     <main>
         <section id="quemsomos">
+            <h2>Quem somos</h2>
+            
+            <div class="sessao">
+                <div id="jorge" class="sessao">
+                
+                </div>
+                
+                <p>
+                    Márcio Jorge Medeiros Melo Filho;
+                </p>
+                
+                <p>
+                    202309795892
+                </p>
+                    
+                <p>
+                    Análise e Desenvolvimento de Sistemas.
+                </p>
+
+            </div>
+            
+            <div class="sessao">
+                <div id="israel" class="sessao">
+                
+                </div>
+                <p>
+                    Israel Moura Sturaro;
+                </p>
+                
+                <p>
+                    202309495449;
+                </p>
+                    
+                <p>
+                    Análise e Desenvolvimento de Sistemas.
+                </p>
+            </div>
             
         </section>
-        <section id="a">
-            <div id="nossasfotos">
-                <h2>Quem somos</h2>
-                <br>
-                <div>
-                    <div class="img" id="jorge">  
-                    </div>
-                    <div  class="info">
-                        <p>Márcio Jorge Medeiros Melo Filho;</p>
-                    
-                        <p>202309795892;</p>
-                    
-                        <p>Análise e Desenvolvimento de Sistemas</p> 
-                    </div>
-                    
-                    <div class="img" id="israel">   
-                    </div>
-                    <div class="info">
-                        <p>Israel Moura Sturaro;</p>
-                    
-                        <p>202309495449;</p>
-                    
-                        <p>Análise e Desenvolvimento de Sistemas</p>
-                    </div>
-                </div>
-            </div>
+        
+        <section>
+            
         </section>
-        <footer>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1990545184776!2d-38.57749312408675!3d-3.766816143370703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c01797285bb%3A0xa8888be05f940563!2sCentro%20Universit%C3%A1rio%20Est%C3%A1cio%20-%20Campus%20Parangaba!5e0!3m2!1spt-BR!2sbr!4v1695847073965!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </footer>
+
     </main>
+    
+    <footer>
+        <input type="button" value="Localização da faculdade" onclick="mostrar()"></input>
+        <div id="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1990545184776!2d-38.57749312408675!3d-3.766816143370703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c01797285bb%3A0xa8888be05f940563!2sCentro%20Universit%C3%A1rio%20Est%C3%A1cio%20-%20Campus%20Parangaba!5e0!3m2!1spt-BR!2sbr!4v1695847073965!5m2!1spt-BR!2sbr" width="720" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="iframe">
+        </div>
+        </iframe>
+    </footer>
+
 </body>
+
+<script>
+    function mostrar(){
+        var a = window.document.getElementById("iframe")
+        a.style.display = "block"
+    }
+</script>
+
 </html>

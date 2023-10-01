@@ -1,11 +1,13 @@
+ @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 :root{
-    --cor0:var(#4284F7);
-    --cor1:var(#E74231);
-    --cor2:var(#31AD52);
-    --cor3:var(#F7BD02);
+    --cor0: #FFBE86;
+    --cor1: #A1B5D8;
+    --cor2: #004E98;
+    --cor3: #984447;
+    --cor4: #143109;
 
     --fontetitulo:'Mooli',cursive;
     --fontedestaque:'Sedgwick Ave Display', cursive;
@@ -15,83 +17,171 @@
 *{
     padding: 0px;
     margin: 0px;
+}
+body{
+    background-color: var(--cor0);
     font-family: var(--fontepadrao);
 }
 header{
-    background-color: black;
     color: white;
-    background-image: linear-gradient(#123a80,#1e63dc,#1f6df2);
+    background-image: linear-gradient(to bottom, #6b7d9b,#398fe0, #0366c2,#004E98);
+    text-align: center;
     margin: auto;
     height: auto;
     width: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-header h1,p{
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: var(--fontetitulo);
-}
-header a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline;
-}
-header a:hover{
-    background-color: #154597;
-}
-.aexterno{
-    background-image: linear-gradient(to right,#E74231,#31AD52,#F7BD02,#4284F7);
-    color: rgba(255, 255, 255, 0.881);
-}
-section{
-    height: 83.8vh;
-    padding: 20px;
-}
-section h2{
-    text-indent: 20px;
-    font-family: var(--fontetitulo);
-}
-section#quemsomos{
-    background-image: url(pexels-photomix-company-106341.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    color: white;
-}
-section#a{
-    height: auto;
-    background-color: #E74231;
-}
-div.img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: inline-block;
-}
-div.info{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.401);
-    padding: 10px;
-}
-div#jorge{
-    background-image: url(perfil\ profissional.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-div#israel{
-    background-image: url(Israel.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-footer{
-    background-color: #31AD52;
-}
-iframe{
-    padding-left: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+header > h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.663);
+    padding-bottom: 10px;
+    font-family: var(--fontetitulo);
+}
+header > p{
+    font-family: var(--fontepadrao);
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.663)
+}
+nav{
+    background-color: #004E98;
+    padding: 10px;
+    text-decoration: none;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline;
+}
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main strong{
+    color: var(--cor3);
+    font-weight: bold;
+}
+main a{
+    background-color: var(--cor4);
+    padding: 2px 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor1);
+}
+main a:hover{
+    text-decoration: underline;
+    color: #557ec4;
+}
+main h1{
+    color: var(--cor4);
+    font-family: var(--fontedestaque);
+}
+main h2{
+    color: #c1cee4;
+    font-family: var(--fontedestaque);
+    font-size: 2em;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #003465, white);
+    text-align: left;
+}
+main{
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background-image: url(estilos/pexels-piccinng-3052361.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+section#quemsomos{
+    background-color: white;
+    box-shadow: 2px 2px 0px black;
+    padding: 20px;
+    margin: 30px;
+}
+div.sessao{
+    display: inline-block;
+}
+div > p{
+    font-size: 2em;
+    font-weight: bolder;
+}
+div#jorge{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url(estilos/perfil\ profissional.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div#israel{
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(estilos/Israel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer{
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgb(169, 169, 169);
+    margin-bottom: 10px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: var(--cor4);
+    color: yellow;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 0px black;
+}
+input:hover{
+    background-color: yellow;
+    color: var(--cor1);
+}
+iframe{
+    display: none;
+}
+div#container{
+    height: 0;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 50%;
+    background-color: rgb(169, 169, 169);
+}
+div#container iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }

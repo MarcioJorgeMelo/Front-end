@@ -102,8 +102,9 @@ main h2{
     font-family: var(--fontedestaque);
     font-size: 2em;
     font-weight: bolder;
-    background-image: linear-gradient(to right, #003465, white);
+    background-image: linear-gradient(to right, #003465, rgba(255, 255, 255, 0.53));
     text-align: left;
+    text-indent: 10px;
 }
 main{
     min-width: 300px;
@@ -119,14 +120,16 @@ main{
     background-image: url(estilos/pexels-piccinng-3052361.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     background-attachment: fixed;
 }
 section#quemsomos{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.478);
     box-shadow: 2px 2px 0px black;
     padding: 20px;
     margin: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 div.sessao{
     display: inline-block;

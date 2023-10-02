@@ -142,7 +142,7 @@ div#jorge{
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-image: url(estilos/perfil\ profissional.jpg);
+    background-image: url(estilos/perfil-profissional.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }

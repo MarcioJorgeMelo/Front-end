@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 480px) and (max-width:768px) {
+@media screen and (min-width: 768px) {
+    
     main{
-        background-color: aqua;
+        background-image: linear-gradient(to bottom, #5F2C82, #61c7c5);
+    }
+
+    section{
+    
+    }
+    
+}
+
+@media screen and (min-width: 980px) {
+    main{
+        background-color: black;
     }
 }

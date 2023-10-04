@@ -81,10 +81,10 @@ div#senha > input{
     font-size: 1em;
 }
 
-input#entrar{
+div#entrar{
     background-color: #68b2b0;
     border: none;
-    margin-left: 14px;
+    margin: auto;
     margin-top: 5px;
     width: 235px;
     height: 50px;
@@ -93,7 +93,12 @@ input#entrar{
     font-size: 1em;
 }
 
-input#entrar:hover{
+div#entrar > p{
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+div#entrar:hover{
     background-color: #374e4d;
 }
 
@@ -101,7 +106,8 @@ div#esqueciasenha{
     border: 3px solid #5e8583;
     background-color: white;
     margin: auto;
-    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     width: 235px;
     height: 40px;
     border-radius: 10px;

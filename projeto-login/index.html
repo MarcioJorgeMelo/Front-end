@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
    <main>
@@ -15,9 +17,27 @@
 
         <div id="formulario">
             <h1>Login</h1>
-            <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçõesno seu ambiente.</p>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.php" method="post">
-
+                <div id="login">
+                    <span class="material-icons">
+                        person
+                    </span>
+                    <input type="text" placeholder="  seu e-mail" required>
+                </div>
+                <div id="senha">
+                    <span class="material-icons">
+                        vpn_key
+                    </span>
+                    <input type="password" placeholder="  sua senha" required>
+                </div>
+                <input  id="entrar" type="submit" value="Entrar">
+                <div id="esqueciasenha">
+                    <p>Esqueci a senha</p>
+                    <span id="email" class="material-icons">
+                        email
+                    </span>
+                </div>
             </form>
         </div>
     </section>

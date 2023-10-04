@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+    main{
+        background-color: aqua;
+    }
+}

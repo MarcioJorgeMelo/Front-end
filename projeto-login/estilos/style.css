@@ -1,1 +1,123 @@
 @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #5F2C82;
+    height: 100vh;
+}
+
+section{
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+span.material-icons{
+    color: white;
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+div#imagem{
+    background-image: url(../imagens/pexels-dinnow-9444476.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+div#formulario > p{
+    font-size: 0.85em;
+    padding: 8px;
+}
+
+div#login{
+    background-color: #5F2C82;
+    border-radius: 10px;
+    margin: auto;
+    width: 235px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+div#login > input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #94CFCD;
+    font-size: 1em;
+}
+
+div#senha{
+    background-color: #5F2C82;
+    border-radius: 10px;
+    margin: auto;
+    width: 235px;
+    height: 50px;
+}
+
+div#senha > input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #94CFCD;
+    font-size: 1em;
+}
+
+input#entrar{
+    background-color: #68b2b0;
+    border: none;
+    margin-left: 14px;
+    margin-top: 5px;
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+}
+
+input#entrar:hover{
+    background-color: #374e4d;
+}
+
+div#esqueciasenha{
+    border: 3px solid #5e8583;
+    background-color: white;
+    margin: auto;
+    margin: 10px;
+    width: 235px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+div#esqueciasenha:hover{
+    background-color: #84e3e0;
+}
+
+div#esqueciasenha > p{
+   margin-left: 50px;
+   margin-top: 10px;
+   display: inline;
+}
+
+span#email{
+    color: #5e8583;
+    font-size: 18px;
+}

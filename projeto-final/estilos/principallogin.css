@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1D1A05;
+}
+
+header{
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: #3D5A80;
+    color: #F0E7D8;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 3em;
+    position: relative;
+}
+
+header > p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
+}
+
+div#login{
+    position: absolute;
+    display: inline-block;
+    left: 90%;
+    top: 3%;
+}
+
+span.material-symbols-outlined{
+    color: #F0E7D8;
+    font-size: 2.5em;
+}
+
+span.material-symbols-outlined:hover{
+    color: #1D1A05;
+}
+
+nav{
+    background-color: #3D5A80;
+    padding-top: 10px;
+}
+
+a.link{
+    text-decoration: none;
+    color: #F0E7D8;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+a.link:hover{
+    color: #1D1A05;
+}
+
+main{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+input.botao{
+    display: inline;
+    margin-right: 10px;
+}

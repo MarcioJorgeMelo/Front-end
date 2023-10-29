@@ -91,11 +91,40 @@ ul > li,p{
     font-weight: bold;
 }
 
-div#img{
-    background-image: url(imagens/perfil-profissional.jpg);
+div.participantes{
+    display: block;
+}
+
+div.github{
+    height: 5px;
+    width: 5px;
+    margin: 5px;
+    background-image: url(imagens/git.png);
+    display: inline;
+}
+
+div.insta{
+    height: 5px;
+    width: 5px;
+    margin: 5px;
+    background-image: url(imagens/insta.png);
+    display: inline;
+}
+
+div#imgjorge{
     height: 100px;
     width: 100px;
     margin: 5px;
-    border-radius: 50%;
+    background-image: url(imagens/perfil-profissional.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div#imgisrael{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-image: url(imagens/israel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }

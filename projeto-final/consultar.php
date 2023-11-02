@@ -27,17 +27,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta Dados</title>
+    <link rel="shortcut icon" href="imagens/Devcom-Medical-Health-care-shield.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="estilos/principalform.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <h2>Consultar Dados</h2>
-    <form method="post" action="">
-        Nome: <input type="text" name="nome">
-        <br><br>
-        <input type="submit" value="Consultar">
-    </form>
-    <br>
-    <a href="index.html"><button>Página principal</button></a>
-    <a href="editar.php"><button>Editar</button></a>
+
+        <header id="menu">
+            <h1>CallMed</h1>
+            <p>O plano que cabe no seu bolso!</p>
+            <div id="login">
+                <a href="form.html" target="_blank">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html" target="_blank" class="link">Menu</a>
+            <a href="sobre.html" target="_blank" class="link">Sobre</a>
+            <a href="ouvidoria.html" target="_blank" class="link">Ouvidoria</a>
+            <a href="consultar.php" target="_blank" class="link">Consultar</a>
+        </nav>
+    
+    <main>
+        
+        <h1>Consultar Dados</h1>
+
+        <br>
+
+        <form method="post" action="">
+            <p>
+
+                <label for="">Nome:</label>
+                
+                <input type="text" name="nome" id="inome" placeholder="Digite aqui seu nome" autocomplete="name">
+
+            </p>
+
+            <br>
+
+            <input type="submit" value="Consultar">
+
+        </form>
+
+        <br>
+
+        <a href="index.html"><button>Página principal</button></a>
+
+        <a href="editar.php"><button>Editar</button></a>
+
+    </main>
 <?php
     if ($resultado !== null && $resultado->num_rows > 0) {
         echo "<h3>Resultados:</h3>";

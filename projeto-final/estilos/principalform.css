@@ -70,6 +70,10 @@ main{
     background-color: white;
 }
 
+main > h1{
+    font-family: 'Agbalumo', sans-serif;
+}
+
 input.botao{
     display: inline;
     margin-right: 10px;

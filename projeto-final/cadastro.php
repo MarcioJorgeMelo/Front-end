@@ -13,13 +13,14 @@
         die("Erro na conexão com o banco de dados: " . $conn->connect_error);
     }
     $nome = $_POST['nome'];
-    $nascimento = $_POST['nasc'];
+    $nasc = $_POST['nasc'];
     $endereço = $_POST['ende'];
-    $telefone = $_POST['tel'];
     $cpf = $_POST['cpf'];
+    $telefone = $_POST['tel'];
     
     // Inserção de dados na tabela "Cliente"
-    $sql = "INSERT INTO clientes (cpf, endereço, nascimento, nome, telefone) VALUES ('$cpf','$endereço', $nascimento,'$nome','$telefone')";
+    $sql = "INSERT INTO clientes (cpf, endereço, nascimento, nome, telefone) VALUES ('$cpf', '$endereço', $nasc, '$nome', '$telefone')";
+
     if ($conn->query($sql) == TRUE) {
         echo "Registro inserido com sucesso.";
     } else {

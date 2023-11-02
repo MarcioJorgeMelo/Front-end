@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+
+    header > h1{
+        font-size: 5em;
+    }
+
+    header > p{
+        font-size: 1.5em;
+    }
+
+    span.material-symbols-outlined{
+        font-size: 5em;
+        padding-top: 20px;
+    }
+    
+    a.link{
+        font-size: 1.5em;
+        padding: 30px;
+    }
+
+    div#img1{
+        width: 900px;
+        height: 400px;
+    }
+
+    div#img2{
+        width: 900px;
+        height: 400px;
+    }
+
+    div#img3{
+        width: 900px;
+        height: 400px;
+    }
+
+    div.indentar{
+        font-size: 1.2em;
+    }
+
+    h2, h3{
+        font-size: 2em;
+    }
+
+    div.participantes{
+        font-size: 1.8em;
+    }
+
+    div.github{
+        height: 40px;
+        width: 40px;
+    }
+
+    div.insta{
+        height: 40px;
+        width: 40px;
+    }
+
+    div#imgjorge{
+        height: 300px;
+        width: 300px;
+    }
+
+    div#imgisrael{
+        height: 300px;
+        width: 300px;
+    }
+
+    div#imgcaio{
+        height: 300px;
+        width: 300px;
+    }
+
+    div#imgpedro{
+        height: 300px;
+        width: 300px;
+    }
+
+    div#imgderik{
+        height: 300px;
+        width: 300px;
+    }
+
+    footer{
+        font-size: 1.3em;
+    }
+
+    label{
+        font-size: 1.5em;
+    }
+
+    input{
+        font-size: 1.2em;
+    }
+
+    input#inome{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+
+    span.material-symbols-outlined{
+        padding-left: 90px;
+    }
+
+}

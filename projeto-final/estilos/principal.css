@@ -63,7 +63,18 @@ a.link:hover{
     color: #1D1A05;
 }
 
-main{
+a.link1{
+    text-decoration: none;
+    color: #1D1A05;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+a.link1:hover{
+    color: blue;
+}
+
+body{
     font-family: 'Kanit', sans-serif;
 }
 
@@ -76,7 +87,7 @@ section > div{
 }
 
 section > h2,h3{
-    text-indent: 3px;
+    text-indent: 5px;
     background-image: linear-gradient(to right,#d16201,#F0E7D8 80%);
     font-family: 'Agbalumo', sans-serif;
 }
@@ -91,40 +102,180 @@ ul > li,p{
     font-weight: bold;
 }
 
+h3{
+   margin-left: 15px; 
+   text-indent: 5px;
+}
+
+div#img1{
+    background-image: url(../imagens/saude1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+}
+
+div#img2{
+    background-image: url(../imagens/saude2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+}
+
+div#img3{
+    background-image: url(../imagens/saude3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+}
+
 div.participantes{
     display: block;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-indent: 5px;
 }
 
 div.github{
-    height: 5px;
-    width: 5px;
-    margin: 5px;
-    background-image: url(imagens/git.png);
-    display: inline;
+    height: 20px;
+    width: 20px;
+    background-image: url(../imagens/git.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 div.insta{
-    height: 5px;
-    width: 5px;
-    margin: 5px;
-    background-image: url(imagens/insta.png);
-    display: inline;
+    height: 20px;
+    width: 20px;
+    background-image: url(../imagens/insta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 div#imgjorge{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 5px;
-    background-image: url(imagens/perfil-profissional.jpg);
+    border-radius: 50%;
+    background-image: url(../imagens/perfil-profissional.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 div#imgisrael{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 5px;
-    background-image: url(imagens/israel.jpg);
+    border-radius: 50%;
+    background-image: url(../imagens/israel.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+div#imgcaio{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(../imagens/caio.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+div#imgpedro{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(../imagens/pedro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#imgderik{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url(../imagens/derick.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.indentar{
+    text-indent: 20px;
+}
+
+aside#map{
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+input{
+    height: 50px;
+    width: 460px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 0px black;
+    font-weight: bolder;
+}
+
+input:hover{
+    background-color: #d16201;
+    color: var(--cor2);
+}
+
+iframe{
+    display: none;
+}
+
+div#container{
+    height: 0;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 50%;
+    background-color: #BF3100;
+    display: none;
+}
+
+div#container > iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #1D1A05;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Agbalumo', sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1D1A05;
+    font-family:'Agbalumo', sans-serif;
 }

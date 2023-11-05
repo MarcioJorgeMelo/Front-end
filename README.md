@@ -1,5 +1,5 @@
 # 01
-Projetos do curso de HTML e CSS
+Projetos de HTML5, CSS 3, JavaScript e PHP("CRUD").
 
 Clique abaixo e veja-os:
 <br>
@@ -13,8 +13,9 @@ Clique abaixo e veja-os:
 <br>
 <a href="https://marciojorgemelo.github.io/01/projeto-redes/pacote-d013/pacote-d013/index.html" target="_blank">-Site de formulario;</a>
 <br>
-<a href="https://marciojorgemelo.github.io/01/site-completo01/index.html" target="_blank">-Site do trabalho;
+<a href="https://marciojorgemelo.github.io/01/site-completo01/index.html" target="_blank">-Site do trabalho;</a>
 <br>
-
+<a href="https://marciojorgemelo.github.io/01/projeto-final/index.html" target="_blank">Site do trabalho final.</a>
+<br>
 
  

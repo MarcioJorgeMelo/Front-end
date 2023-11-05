@@ -2,6 +2,10 @@
 
 @media screen and (min-width:780px) {
 
+    body{
+        background-color: black;
+    }
+
     header > h1{
         font-size: 5em;
     }
@@ -103,6 +107,10 @@
 
     span.material-symbols-outlined{
         padding-left: 90px;
+    }
+
+    section > p{
+        font-size: 1.5em;
     }
 
 }

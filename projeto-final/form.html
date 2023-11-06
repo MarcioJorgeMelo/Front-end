@@ -23,10 +23,10 @@
         </div>
     </header>
     <nav>
-        <a href="index.html" target="_blank" class="link">Menu</a>
-        <a href="sobre.html" target="_blank" class="link">Sobre</a>
-        <a href="ouvidoria.html" target="_blank" class="link">Ouvidoria</a>
-        <a href="consultar.php" target="_blank" class="link">Consultar</a>
+        <a href="index.html" target="_self" class="link">Menu</a>
+        <a href="sobre.html" target="_self" class="link">Sobre</a>
+        <a href="ouvidoria.html" target="_self" class="link">Ouvidoria</a>
+        <a href="consultar.php" target="_self" class="link">Consultar</a>
     </nav>
 
     <main>
@@ -37,9 +37,11 @@
 
             <br>
             
+            <input type="hidden" name="acao" value="cadastrar">
+            
             <p>
                 <label for="inome">Nome completo: </label>
-                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Digite aqui seu nome completo" minlength="8">
+                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Digite aqui seu nome completo">
             </p>
 
             <br>

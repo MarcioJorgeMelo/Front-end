@@ -6,9 +6,10 @@
     $endereço = $_POST['ende'];
     $cpf = $_POST['cpf'];
     $telefone = $_POST['tel'];
+    $senha = $_POST['senha'];
     
     // Inserção de dados na tabela "Cliente"
-    $sql = "INSERT INTO clientes (cpf, endereço, nascimento, nome, telefone) VALUES ('$cpf', '$endereço', '$nasc', '$nome', '$telefone')";
+    $sql = "INSERT INTO clientes (cpf, endereço, nascimento, nome, telefone,senha) VALUES ('$cpf', '$endereço', '$nasc', '$nome', '$telefone','$senha')";
 
     if ($conn->query($sql) == TRUE) {
         echo "<script>alert('Registro inserido com sucesso.')</script>";

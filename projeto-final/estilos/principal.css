@@ -120,6 +120,7 @@ div#img1{
     width: 300px;
     height: 200px;
     margin: auto;
+    box-shadow: 3px 3px black;
 }
 
 div#img2{
@@ -130,6 +131,7 @@ div#img2{
     width: 300px;
     height: 200px;
     margin: auto;
+    box-shadow: 3px 3px black;
 }
 
 div#img3{
@@ -140,6 +142,7 @@ div#img3{
     width: 300px;
     height: 200px;
     margin: auto;
+    box-shadow: 3px 3px black;
 }
 
 div.participantes{
@@ -177,6 +180,7 @@ div#imgjorge{
     background-image: url(../imagens/perfil-profissional.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px black;
 }
 
 div#imgisrael{
@@ -187,6 +191,7 @@ div#imgisrael{
     background-image: url(../imagens/israel.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 div#imgcaio{
@@ -198,6 +203,7 @@ div#imgcaio{
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px black;
 }
 
 div#imgpedro{
@@ -208,6 +214,7 @@ div#imgpedro{
     background-image: url(../imagens/pedro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 div#imgderik{
@@ -218,6 +225,7 @@ div#imgderik{
     background-image: url(../imagens/derick.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 div.indentar{

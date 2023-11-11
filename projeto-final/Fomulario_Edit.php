@@ -15,7 +15,7 @@
         <h1>CallMed</h1>
         <p>O plano que cabe no seu bolso!</p>
         <div id="login">
-            <a href="form.html" target="_blank">
+            <a href="TelaLogin.php" target="_blank">
                 <span class="material-symbols-outlined">
                     account_circle
                 </span>

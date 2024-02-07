@@ -166,6 +166,9 @@ footer{
     color: white;
     font-size: 0.8em;
     padding: 5px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 a#footer{
     color: white;

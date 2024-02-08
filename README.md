@@ -1,21 +1,19 @@
-# 01
-Projetos de HTML5, CSS 3, JavaScript e PHP("CRUD").
+# treino
+Contém Projetos de HTML5, CSS 3, JavaScript, PHP("CRUD") e React. 
 
 Clique abaixo e veja-os:
 <br>
-<a href="https://marciojorgemelo.github.io/01/sitedevideos/index.html" target="_blank">-Site de recomendação de vídeos</a>;
+<a href="https://marciojorgemelo.github.io/treino/projeto-siteapple/site-apple/index.html" target="_blank">-Site análogo ao site da Apple</a>;
 <br>
-<a href="https://marciojorgemelo.github.io/01/redes-sociais/index.html" target="_blank">-Conheça-me mais</a>;
+<a href="https://marciojorgemelo.github.io/treino/site-android/index.html" target="_blank">-Site de notícias padrão</a>;
 <br>
-<a href="https://marciojorgemelo.github.io/01/site-android/index.html" target="_blank">-Site de notícias completo</a>;
+<a href="https://marciojorgemelo.github.io/treino/projeto-login/index.html" target="_blank">-Tela de login adaptável</a>;
 <br>
-<a href="https://marciojorgemelo.github.io/01/cordel-moderno/index.html" target="_blank">-Site de uma poesia completa</a>;
+<a href="https://marciojorgemelo.github.io/treino/projeto-audiobook/audiobook/index.html" target="_blank">-Site de audiobook</a>;
 <br>
-<a href="https://marciojorgemelo.github.io/01/projeto-redes/pacote-d013/pacote-d013/index.html" target="_blank">-Site de formulario;</a>
+<a href="https://marciojorgemelo.github.io/treino/cordel-moderno/index.html" target="_blank">-Site de cordel</a>;
 <br>
 <a href="https://marciojorgemelo.github.io/01/site-completo01/index.html" target="_blank">-Site do trabalho;</a>
-<br>
-<a href="https://marciojorgemelo.github.io/01/projeto-final/index.html" target="_blank">Site do trabalho final.</a>
-<br>
+
 
  

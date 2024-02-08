@@ -13,6 +13,6 @@ Clique abaixo e veja-os:
 <br>
 <a href="https://marciojorgemelo.github.io/treino/cordel-moderno/index.html" target="_blank">-Site de cordel</a>;
 <br>
-<a href="https://marciojorgemelo.github.io/01/site-completo01/index.html" target="_blank">-Site do trabalho;</a>
+<a href="https://marciojorgemelo.github.io/treino/projeto-redes/index.html" target="_blank">-Site das minhas redes sociais</a>.
 
  

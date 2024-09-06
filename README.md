@@ -12,5 +12,5 @@ Clique abaixo e veja-os:
 - <a href="https://marciojorgemelo.github.io/Front-end/projeto-redes/index.html" target="_blank">Página das minhas redes sociais</a> (HTML e CSS)
 
 - Projeto CRUD (Javascript, Bootstrap, MySQL e PHP) - Sistema de login e CRUD com imagem, com configurações de seguranças, como proteção nos campos contra SQL Injection e Injeção de script, além de validação por meio de sessões
-
-- - Projeto Cardápio (React) - Página de cardápio de um restaurante com diversas opções e design elegante
+  
+- Projeto Cardápio (React) - Página de cardápio de um restaurante com diversas opções e design elegante

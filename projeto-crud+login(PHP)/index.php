@@ -35,7 +35,6 @@
 
                         $senha = mysqli_real_escape_string($conn,md5($_POST['senha']));
 
-                        
                         $sql = "SELECT * FROM `usuarios` WHERE login = '$login' AND senha = '$senha'";
 
                         if ($result = mysqli_query($conn, $sql)) {
@@ -49,16 +48,15 @@
                                     session_start();
                                     $_SESSION['login'] = "Jorge";
                                     header("location: restrito");
-                                }else {
-                                    echo "Login inválido!";
-                                }
-    
                             }else {
-                                
+                                echo "Login inválido!";
+                            }
+                            }else {
                                 echo "Login ou senha não encontrados ou inválidos.";
-    
                             }
 
+                        } else {
+                            echo "Nenhum resultado do Banco de dados";
                         }
                         
 
